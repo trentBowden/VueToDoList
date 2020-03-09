@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/">Home</router-link> |
+      <router-link to="/">Home</router-link>|
       <router-link to="/about">About</router-link>
     </div>
     <router-view />
@@ -9,6 +9,22 @@
 </template>
 
 <style>
+/* 
+Ensure to do things mobile first, so:
+
+@media(min-width: 600px) {
+  // Small Mobile first
+}
+
+@media(min-width: 800px) {
+  // Large mobile
+}
+
+.. And so on.
+
+We can use (orientation: landscape/portrait)
+and even @media screen and (..) or @media print and (...)
+*/
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
